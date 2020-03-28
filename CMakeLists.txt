@@ -101,7 +101,7 @@ if ("${CMAKE_C_COMPILER_ID}" STREQUAL "GNU" OR "${CMAKE_C_COMPILER_ID}" STREQUAL
 endif()
 
 # Find all dependencies
-# add_subdirectory(extern)
+add_subdirectory(extern)
 
 # Don't enable testing until after building dependencies
 enable_testing()
